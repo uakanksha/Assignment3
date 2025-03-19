@@ -23,6 +23,6 @@ def test_divide():
 def test_subtract_last_two_digits_of_student_id():
    
     assert subtract(10092, 10092) == 0  
-    assert subtract(200, 199) == 0 
+    assert subtract(200, 200) == 0 
     assert subtract(500, 500) == 0  
     assert subtract(12, 12) == 0  
